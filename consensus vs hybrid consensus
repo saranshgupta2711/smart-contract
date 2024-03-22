@@ -10,10 +10,10 @@ Proof Of Stake:
 Unlike POW, this algorithm relies on validators,they create new blocks on the basis of the number of stakes or coins they hold.
 PoS requires significantly less computational power and energy consumption compared to PoW, making it more energy-efficient.
 PoS systems incentivize validators to act honestly by utilising a punishment mechanism called “slashing.”
-Slashing penalises validators for any malicious act and removing them from the blockchain by and seizing their stake.
+Slashing penalises validators for any malicious act and removing them from the blockchain, and seizing their stake.
 Hybrid Consensus: 
 This algorithm utilises the element of both the elements Pow/Pos and reduces the weakness of both the mechanisms.
 Decred is the most notable project to utilise both the consensus mechanisms (PoW & PoS) in recognizable forms and merge them together to produce a hybrid consensus mechanism. In this mechanism neither 1 CPU= “1 vote” nor POS 1 token=”1 vote” it opts for some hybrid mechanism of Pow/Pos.
-It starts with  allowing miners to create blocks which contain transactions that are to be added in the blockchain and Pos validators will confirm the creation. Every validator will purchase a vote by staking some tokens and hybrid mechanism chooses some of the votes randomly (say 5) if 3 of them are affirmative the block is added and 60% will be given to miners and 30% to the validators and 10% to the develo
+It starts with  allowing miners to create blocks which contain transactions that are to be added in the blockchain and Pos validators will confirm the creation. Every validator will purchase a vote by staking some tokens and hybrid mechanism chooses some of the votes randomly (say 5) if 3 of them are affirmative the block is added and 60% will be given to miners and 30% to the validators and 10% to the development purposes.
 
 link for word:=>https://docs.google.com/document/d/1Pvs8f7lxlpSx1bFIDMbICAwxmHJJQbnpTuVsZ83oTO4/edit?pli=1&addon_store#heading=h.6ov7yyewxjke
