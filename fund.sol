@@ -21,6 +21,7 @@ contract FundMe{
       function fund() public payable{                               //payment function
           require (msg.value <= maxWei,"Dont fulfill the minimum");
           address _id=msg.sender;
+          owner=msg.sender;
            adv[_id]+=msg.value*1e18;                               // store the address with value in adv mapping
            uint flag=0;
            for(uint8 i=0; i<funder.length; i++){                  //will loop through all and check whether funder is already present inside
@@ -29,7 +30,7 @@ contract FundMe{
            if(flag==0) funder.push(msg.sender);
       }
      
-      function withdraw() public {                                //reverting all the transact till performed
+      function withdraw() public owne{                                //reverting all the transact till performed
         for(uint256 i=0; i<funder.length; i=i+1){
           address fundername=funder[i];
           adv[fundername]=0;
